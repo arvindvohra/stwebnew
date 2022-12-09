@@ -4500,8 +4500,8 @@ fieldset:disabled .btn {
   color: #FFFFFF;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-  font-family: sofia pro regular;
-  font-size: 45px;
+  font-family: quatro, sans-serif;
+  font-size: 52px;
 
 }
 
@@ -4513,7 +4513,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #17667f;
+  color: #ffcb05;
 }
 
 .nav-link.disabled {
@@ -12415,6 +12415,7 @@ html {
   padding: 0.4rem 2.3rem !important;
   background-color: #a952a0;
   background: linear-gradient(to right, #a952a0, #513f99);
+  border: 3px solid #a952a0 !important;
   color: #FFFFFF !important;
   letter-spacing: 0.1rem;
   font-family: sofia-pro, sans-serif !important;
@@ -12425,6 +12426,29 @@ html {
 }
 
 .glance-btn:hover{
+  border: 3px solid #FFFFFF !important;
+  background: transparent !important;
+  
+}
+
+
+
+
+.glance-btn-whitebg {
+  margin-top: 20px;
+  padding: 0.4rem 2.3rem !important;
+  background-color: #a952a0;
+  background: linear-gradient(to right, #a952a0, #513f99);
+  color: #FFFFFF !important;
+  letter-spacing: 0.1rem;
+  font-family: sofia-pro, sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  font-size: 24px !important;
+  border-radius: unset !important;
+}
+
+.glance-btn-whitebg:hover{
   margin-top: 20px;
   padding: 0.3rem 2.3rem !important;
   border: 3px solid !important;
@@ -12436,6 +12460,28 @@ html {
   font-style: normal !important;
   font-size: 24px !important;
   border-radius: unset !important;
+}
+
+
+.glance-btn-superman {
+  margin-top: 20px;
+  padding: 0.4rem 2.3rem !important;
+  background-color: #a952a0;
+  background: linear-gradient(to right, #a952a0, #513f99);
+  border: 3px solid #a952a0 !important;
+  color: #FFFFFF !important;
+  letter-spacing: 0.1rem;
+  font-family: sofia-pro, sans-serif !important;
+  font-weight: 700 !important;
+  font-style: normal !important;
+  font-size: 24px !important;
+  border-radius: unset !important;
+}
+
+.glance-btn-superman:hover{
+  border: 3px solid !important;
+  background: transparent !important;
+  color: #a952a0 !important;
 }
 
 .callout {
@@ -12871,4 +12917,10 @@ select{
   font-family: sofia-pro, sans-serif !important; 
   font-weight: 400; 
   font-style: normal !important;
+}
+
+.glance{
+  font-family: quatro, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
 }

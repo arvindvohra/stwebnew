@@ -3,7 +3,9 @@
   /*   border: 1px solid black; */
 }
 
-
+.openpannel{
+  background-image: url("/assets/img/coll1open.png");
+}
 
 .collapsetab ul {
   display: flex;
@@ -48,7 +50,7 @@
   display: flex;
   align-items: center;
   width: 100%;
-  margin: -70px;
+  margin: 0px -138px;
   padding: 0;
   /*text-align: center;*/
   color: white;
@@ -57,6 +59,20 @@
   margin: 0;
   transform: rotate(90deg);
   white-space: nowrap;
+  background-image: url('../assets/img/close-white.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 100px;
+}
+
+.collapsetab li.active .section-title h1 {
+  margin: 0;
+  transform: rotate(90deg);
+  white-space: nowrap;
+  background-image: url('../assets/img/open-white.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 100px;
 }
 .collapsetab li .section-content {
   flex: 1;
